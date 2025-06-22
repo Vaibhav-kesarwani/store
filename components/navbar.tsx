@@ -3,6 +3,7 @@ import MaxWidthWrapper from "./max-width-wrapper";
 import { Icons } from "./icons";
 import NavItems from "./nav-items";
 import { buttonVariants } from "./ui/button";
+import Cart from "./cart";
 
 export default function Navabr() {
   const user = null;
@@ -63,6 +64,10 @@ export default function Navabr() {
                       />
                     </div>
                   )}
+
+                  <div className="ml-4 flow-root lg:ml-6">
+                    <Cart />
+                  </div>
                 </div>
               </div>
             </div>
