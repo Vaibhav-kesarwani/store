@@ -23,12 +23,14 @@ export default async function Header() {
           <SearchBar />
           <CartIcon />
           <FavoriteIcon />
-          <ClerkLoaded>
-            <SignedIn>
-              <UserButton />
-            </SignedIn>
-            {!user && <SignIn />}
-          </ClerkLoaded>
+          <div className="hidden md:inline-flex">
+            <ClerkLoaded>
+              <SignedIn>
+                <UserButton />
+              </SignedIn>
+              {!user && <SignIn />}
+            </ClerkLoaded>
+          </div>
         </div>
       </Container>
     </header>

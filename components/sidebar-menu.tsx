@@ -40,7 +40,7 @@ const SideMenu: FC<SidebarProps> = ({ isOpen, onClose }) => {
               href={item?.href}
               key={item?.title}
               className={`hover:text-shop_light_green hoverEffect ${
-                pathname === item?.href && "text-white"
+                pathname === item?.href && "text-shop_light_green"
               }`}
             >
               {item?.title}
