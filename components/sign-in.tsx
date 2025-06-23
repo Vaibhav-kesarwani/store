@@ -1,7 +1,15 @@
-export default function SignIn() {
+"use client";
+import { SignInButton } from "@clerk/nextjs";
+import React from "react";
+
+const SignIn = () => {
   return (
-    <button className="text-sm text-shop_dark_green font-semibold hover:text-shop_light_green hoverEffect">
-      Sign In
-    </button>
+    <SignInButton mode="modal">
+      <button className="text-sm font-semibold hover:text-darkColor text-lightColor hover:cursor-pointer hoverEffect">
+        Login
+      </button>
+    </SignInButton>
   );
-}
+};
+
+export default SignIn;
