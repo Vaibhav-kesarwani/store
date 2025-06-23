@@ -3,7 +3,7 @@ import HomeBanner from "@/components/home-banner";
 
 export default function Home() {
   return (
-    <Container>
+    <Container className="bg-shop-light-pink">
       <HomeBanner />
     </Container>
   );
