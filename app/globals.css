@@ -135,4 +135,15 @@
   .hoverEffect {
     @apply transition-all duration-500 ease-in-out;
   }
+  button {
+    @apply hover:cursor-pointer;
+  }
+}
+
+body {
+  font-family: var(--font-poppins);
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }
