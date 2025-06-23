@@ -5,7 +5,7 @@ import { Title } from "./ui/text";
 
 export default function HomeBanner() {
   return (
-    <div className="md:rounded-r-full md:rounded-l-4xl py-16 md:py-0 bg-shop_light_pink rounded-2xl pl-10 md:pl-24 flex items-center justify-between shadow-md">
+    <div className="md:rounded-r-full md:rounded-l-4xl py-16 md:py-0 bg-shop_light_pink rounded-2xl pl-10 pr-3 md:pr-0 lg:pl-24 flex items-center justify-between shadow-md">
       <div className="space-y-5">
         <Title className="font-semibold leading-snug">
           Grad Industry-grade projects <br />
